@@ -31,13 +31,13 @@ span{
     display: inline-block;
 }
 
-.book-btn{
+.open-button{
     background-color: goldenrod;
     width: 150px;
     height: 50px;
     border-radius: 10px;
 }
-.book-btn:hover{
+.open-button:hover{
     cursor: pointer;
     color: rgb(255, 255, 255);
 
@@ -225,6 +225,8 @@ input[type=text], textarea {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
+    
+
 }
 .box1, .box2, .box3{
     background-color: white;
@@ -232,8 +234,9 @@ input[type=text], textarea {
     width: 30%;
     border: 2px solid black;
     border-radius: 10%;
-    color: black
+    color: black;
 }
+
 .review-container{
     display: flex;
     justify-content: space-between;
@@ -267,3 +270,36 @@ input[type=text], textarea {
     height: 5vh;
     align-items: center;
 }
+.booking{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+.form-popup{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    border: 2px solid #f1f1f1;
+    border-radius: 3px;
+    height: 85%;
+    width: 30%;
+    right: 5px;
+    z-index: 9;
+    background-color: white;
+    
+
+}
+
+.book-container{
+    justify-items: center;
+    align-items: center;
+    
+   
+}
+
+.book-container .cancel{
+    background-color: red;
+    
+}
+

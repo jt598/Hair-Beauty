@@ -47,3 +47,13 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     event.preventDefault(); // Prevent the form from submitting
     alert("This is a dummy website, so the form will not be submitted.");
 });
+
+
+function openForm(){
+    document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm(){
+    document.getElementById("myForm").style.display = "none";
+}
+
